@@ -18,3 +18,13 @@ This is the official repo for the SauvolaNet (ICDAR2021). For method details, pl
 ```
 
 ***
+
+#Overview
+
+#Dependency
+
+#Demo
+
+#Concat
+
+For any paper related questions, please feel free to contact leedengsh@gmail.com
