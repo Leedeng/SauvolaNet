@@ -6,7 +6,7 @@
 
 ***
 
-This is the official repo for the SauvolaNet (ICDAR2021). For method details, please refer to 
+This is the official repo for the SauvolaNet (ICDAR2021). For metCancel changeshod details, please refer to 
 
 ```
   @inproceedings{Na,
@@ -19,12 +19,12 @@ This is the official repo for the SauvolaNet (ICDAR2021). For method details, pl
 
 ***
 
-#Overview
+# Overview
 
-#Dependency
+# Dependency
 
-#Demo
+# Demo
 
-#Concat
+# Concat
 
 For any paper related questions, please feel free to contact leedengsh@gmail.com
