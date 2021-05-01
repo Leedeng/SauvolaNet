@@ -6,7 +6,7 @@
 
 ***
 
-This is the official repo for the ManTraNet (CVPR2019). For method details, please refer to 
+This is the official repo for the SauvolaNet (ICDAR2021). For method details, please refer to 
 
 ```
   @inproceedings{asd,
