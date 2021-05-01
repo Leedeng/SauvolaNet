@@ -5,10 +5,16 @@
 </div>
 ***
 This is the official repo for the ManTraNet (CVPR2019). For method details, please refer to 
+***
+This is the official repo for the ManTraNet (CVPR2019). For method details, please refer to 
+
 ```
-  @inproceedings{aa,
-      title={aa},
-      author={aa},
-      journal={aa},
-      year={aaa}
+  @inproceedings{Wu2019ManTraNet,
+      title={ManTra-Net: Manipulation Tracing Network For Detection And Localization of Image ForgeriesWith Anomalous Features},
+      author={Yue Wu, Wael AbdAlmageed, and Premkumar Natarajan},
+      journal={The IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
+      year={2019}
   }
+```
+
+***
