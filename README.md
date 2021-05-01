@@ -9,11 +9,11 @@
 This is the official repo for the SauvolaNet (ICDAR2021). For method details, please refer to 
 
 ```
-  @inproceedings{asd,
-      title={asd},
-      author={asd},
-      journal={asd},
-      year={asd}
+  @inproceedings{Na,
+      title={Na},
+      author={Na},
+      journal={Na},
+      year={Na}
   }
 ```
 
