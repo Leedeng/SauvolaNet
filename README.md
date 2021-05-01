@@ -23,6 +23,13 @@ This is the official repo for the SauvolaNet (ICDAR2021). For metCancel changesh
 
 # Dependency
 
+SauvolaNet is written in Keras with the TensorFlow backend.
+  
+  - Keras: 2.2.0
+  - TensorFlow: 1.8.0
+  
+Other versions might also work, but are not tested.
+
 # Demo
 
 # Concat
