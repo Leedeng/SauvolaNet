@@ -6,10 +6,9 @@
 ***
 This is the official repo for the ManTraNet (CVPR2019). For method details, please refer to 
 ```
-  @inproceedings{a,
-      title={b},
-      author={c},
-      journal={d},
-      year={e}
+  @inproceedings{aa,
+      title={aa},
+      author={aa},
+      journal={aa},
+      year={aaa}
   }
-```
