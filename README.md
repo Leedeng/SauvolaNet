@@ -51,7 +51,7 @@ pip install parse
 
 Then play with the provided ipython notebook
 
-Alternatively, one may play with the inference code using this google colab link.
+Alternatively, one may play with the inference code using this [google colab link](https://colab.research.google.com/drive/1aGYXVRuTf1dhoKSsOCPcB4vKULtplFSA?usp=sharing).
 
 
 # Concat
