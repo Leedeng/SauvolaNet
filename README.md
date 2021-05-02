@@ -38,7 +38,7 @@ Other versions might also work, but are not tested.
 
 # Demo
 
-1. Create virtual environment
+Donwload the repo and create virtual environment by follow command
 
 ```
 conda create --name Sauvola --file spec-env.txt
@@ -49,7 +49,9 @@ pip install pandas
 pip install parse
 ```
 
-2. Then play with the provided ipython notebook.
+Then play with the provided ipython notebook
+
+Alternatively, one may play with the inference code using this google colab link.
 
 
 # Concat
