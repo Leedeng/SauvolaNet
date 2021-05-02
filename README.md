@@ -38,7 +38,7 @@ Other versions might also work, but are not tested.
 
 # Demo
 
-Create virtual environment
+1. Create virtual environment
 
 ```
 conda create --name Sauvola --file spec-env.txt
@@ -48,6 +48,9 @@ pip install opencv-python
 pip install pandas
 pip install parse
 ```
+
+2. Then play with the provided ipython notebook.
+
 
 # Concat
 
