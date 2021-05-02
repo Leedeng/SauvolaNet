@@ -35,7 +35,19 @@ SauvolaNet is written in the TensorFlow.
   
 Other versions might also work, but are not tested.
 
+
 # Demo
+
+Create virtual environment
+
+```
+conda create --name Sauvola --file spec-env.txt
+conda activate Sauvola
+pip install tensorflow-gpu==2.3
+pip install opencv-python
+pip install pandas
+pip install parse
+```
 
 # Concat
 
