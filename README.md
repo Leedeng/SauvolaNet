@@ -38,7 +38,7 @@ Other versions might also work, but are not tested.
 
 # Demo
 
-Donwload the repo and create virtual environment by follow command
+Donwload the repo and create virtual environment by follow commands
 
 ```
 conda create --name Sauvola --file spec-env.txt
