@@ -25,9 +25,9 @@ SauvolaNet is an end-to-end document binarization solutions. It optimal three hy
 
 - **SauvolaNet do not have any Pre/Post-processing**
 - **SauvolaNet has comparable performance with SoTA**
-- **SauvolaNet has a super lightweight network horticulture, faster than SoTA**
+- **SauvolaNet has a super lightweight network stucture and faster than DNN-based SoTA**
 
-<img src="https://github.com/Leedeng/SauvolaNet/blob/main/Image/FPS.png" width="30%">
+<img src="https://github.com/Leedeng/SauvolaNet/blob/main/Image/FPS.png" width="50%">
 
 # Dependency
 
