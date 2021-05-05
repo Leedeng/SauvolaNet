@@ -23,9 +23,11 @@ This is the official repo for the SauvolaNet (ICDAR2021). For details of Sauvola
 
 SauvolaNet is an end-to-end document binarization solutions. It optimal three hyper-parameters of classic Sauvola algriothim. Compare with exisiting solutions, SauvolaNet has follow advantages:
 
-- SauvolaNet do not have any Pre/Post-processing
-- SauvolaNet has comparable performance with SoTA
-- SauvolaNet has super light network horticulture, faster than SoTA
+- **SauvolaNet do not have any Pre/Post-processing**
+- **SauvolaNet has comparable performance with SoTA**
+- **SauvolaNet has a super lightweight network horticulture, faster than SoTA**
+
+<img src="https://github.com/Leedeng/SauvolaNet/blob/main/Image/FPS.png" width="30%">
 
 # Dependency
 
