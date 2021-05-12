@@ -29,6 +29,14 @@ SauvolaNet is an end-to-end document binarization solutions. It optimal three hy
 
 <img src="https://github.com/Leedeng/SauvolaNet/blob/main/Image/FPS.png" width="50%">
 
+More precisely, SauvolaNet consist of three modules namely, Multi-window Sauvola (MWS), Pixelwise Window Atten-tion (PWA), and Adaptive Sauolva Threshold (AST).
+
+- **SauvolaNet do not have any Pre/Post-processing**
+- **SauvolaNet has comparable performance with SoTA**
+- **SauvolaNet has a super lightweight network stucture and faster than DNN-based SoTA**
+- 
+<img src="https://github.com/Leedeng/SauvolaNet/blob/main/Image/Structure2.png" width="50%">
+
 # Dependency
 
 SauvolaNet is written in the TensorFlow.
