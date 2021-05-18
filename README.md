@@ -9,14 +9,13 @@
 This is the official repo for the SauvolaNet (ICDAR2021). For details of SauvolaNet, please refer to 
 
 ```
-@misc{li2021sauvolanet,
-      title={SauvolaNet: Learning Adaptive Sauvola Network for Degraded Document Binarization}, 
-      author={Deng Li and Yue Wu and Yicong Zhou},
-      year={2021},
-      eprint={2105.05521},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV}
+@article{li2021sauvolanet,
+  title={SauvolaNet: Learning Adaptive Sauvola Network for Degraded Document Binarization},
+  author={Li, Deng and Wu, Yue and Zhou, Yicong},
+  journal={arXiv preprint arXiv:2105.05521},
+  year={2021}
 }
+
 ```
 
 ***
