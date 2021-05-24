@@ -40,9 +40,10 @@ More precisely, SauvolaNet consists of three modules namely, Multi-window Sauvol
 
 # Dependency
 
-SauvolaNet is written in the TensorFlow.
+LineCounter is written in the TensorFlow.
   
-  - TensorFlow-GPU: 2.3.0
+  - TensorFlow-GPU: 1.15.0
+  - keras-gpu 2.2.4 
   
 Other versions might also work, but are not tested.
 
@@ -52,11 +53,10 @@ Other versions might also work, but are not tested.
 Donwload the repo and create virtual environment by follow commands
 
 ```
-conda create --name Sauvola --file spec-env.txt
+conda create --name LineCounter --file spec-env.txt
 conda activate Sauvola
-pip install tensorflow-gpu==2.3
+pip install tensorflow-gpu==1.15.0
 pip install opencv-python
-pip install pandas
 pip install parse
 ```
 
