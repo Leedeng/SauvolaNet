@@ -58,6 +58,25 @@ Then play with the provided ipython notebook.
 
 Alternatively, one may play with the inference code using this [google colab link](https://colab.research.google.com/drive/1aGYXVRuTf1dhoKSsOCPcB4vKULtplFSA?usp=sharing).
 
+# Datasets
+We do not own the copyright of the dataset used in this repo.
+
+Below is a summary table of the datasets used in this work along with a link from which they can be downloaded:
+
+
+| Dataset      | Acronym | URL     |
+| ------------ | ------- | ------- |
+| DIBCO 2009   | DB09    | http://users.iit.demokritos.gr/~bgat/DIBCO2009/benchmark/   |
+| DIBCO 2010   | DB10    | http://users.iit.demokritos.gr/~bgat/H-DIBCO2010/benchmark/ |
+| DIBCO 2011   | DB11    | http://utopia.duth.gr/~ipratika/DIBCO2011/benchmark/        |
+| DIBCO 2012   | DB12    | http://utopia.duth.gr/~ipratika/HDIBCO2012/benchmark/       |
+| DIBCO 2013   | DB13    | http://utopia.duth.gr/~ipratika/DIBCO2013/benchmark/        |
+| DIBCO 2014   | DB14    | http://users.iit.demokritos.gr/~bgat/HDIBCO2014/benchmark/  |
+| DIBCO 2016   | DB16    | http://vc.ee.duth.gr/h-dibco2016/benchmark/                 |
+| Palm Leaf    | PL-I / PL-II | http://amadi.univ-lr.fr/ICFHR2016_Contest/             |
+| Persian docs | PHI     | http://www.iapr-tc11.org/mediawiki/index.php/Persian_Heritage_Image_Binarization_Dataset_(PHIBD_2012) |
+| Ensiedeln    | ES      | http://www.e-codices.unifr.ch/en/sbe/0611/                  |
+| Salzinnes    | SAM     | https://cantus.simssa.ca/manuscript/133/                    |
 
 # Concat
 
