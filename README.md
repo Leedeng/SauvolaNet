@@ -1,16 +1,24 @@
 # SauvolaNet: Learning Adaptive Sauvola Network
-
 <div align="left">
     <img src="https://www.um.edu.mo/wp-content/uploads/2020/09/UM-Logo_V-Black-1024x813.png" width="30%"><img src="https://viplab.cis.um.edu.mo/images/logo_5.JPG" width="30%"><img src="https://icdar2021.org/wp-content/uploads/icdar2021-logo.png" width="30%">     
 </div>
 
+<br>
+<br>
+
+
+<img src="docs/outputs.png" width="100%">
+
+
 ***
 
-This is the official repo for the SauvolaNet (ICDAR2021). For details of SauvolaNet, please refer to 
+This is the official repo for the SauvolaNet (ICDAR2021). For details of SauvolaNet, please refer to [our paper.](https://arxiv.org/abs/2105.05521)
 
-```
-
-```
+***
+### TODO List
+- [x] [Training](#training). Added training functions for both pretrained and from scratch options 
+- [x] [Configuration](docs/Training_Config.md) file to customize nearly everything in the pipeline.
+- [ ] ImageAugmentations
 
 ***
 
@@ -22,7 +30,7 @@ SauvolaNet is an end-to-end document binarization solution. It is optimal for th
 - **SauvolaNet has comparable performance with SoTA**
 - **SauvolaNet has a super lightweight network structure and faster than DNN-based SoTA**
 
-<img src="https://github.com/Leedeng/SauvolaNet/blob/main/Image/FPS.png" width="50%">
+<img src="docs/FPS.png" width="50%">
 
 More precisely, SauvolaNet consists of three modules, namely, Multi-window Sauvola (MWS), Pixelwise Window Attention (PWA), and Adaptive Sauolva Threshold (AST).
 
@@ -30,7 +38,38 @@ More precisely, SauvolaNet consists of three modules, namely, Multi-window Sauvo
 - **PWA generates pixelwise attention of window size**
 - **AST generates pixelwise threshold by fusing the result of MWS and PWA.**
 
-<img src="https://github.com/Leedeng/SauvolaNet/blob/main/Image/Structure2.png" width="50%">
+<img src="docs/Structure2.png" width="50%">
+
+# Training
+
+
+## Training Script
+Configure `Config.yaml` file and simply run the following to start training: (Check the following for details on [Config parameters](docs/Training_Config.md))
+
+```bash
+$ python train.py
+```
+The following list can be viewed through --help
+```bash
+$ python train.py -h
+
+usage: train.py [-h] [-c CONF] [-a ARGS [ARGS ...]]
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -c CONF, --conf CONF  configuration file path
+  -a ARGS [ARGS ...], --args ARGS [ARGS ...]
+                        configuration arguments. e.g.: -a Train.loss=mse
+```
+
+##Dataset
+
+For **each** image there should be an image for the original image e.g. `TRAIN_image1_source.jpg`, and an image for the ground truth image e.g. `TRAIN_image1_target.jpg`
+
+The *pattern* to match source and groundtruth images is the name before the `'_source.*'` or `'_target.*'`
+Besides, all the names should begin with `'TRAIN_'`
+⟶ **In Summury**, for each image there should be the following:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(`'TRAIN_<uniqueID>_source.<Extention>'`, `'TRAIN_<uniqueID>_target.<Extention>'`)
 
 # Dependency
 
@@ -80,7 +119,6 @@ Below is a summary table of the datasets used in this work along with a link fro
 | Synchromedia Multispectral dataset | http://tc11.cvc.uab.es/datasets/SMADI_1　|
 | Monk Cuper Set | https://www.ai.rug.nl/~sheng/ |
 
-
 # Concat
 
-For any paper-related questions, please feel free to contact leedengsh@gmail.com.
+For any paper-related questions, please feel free to contact leedengsh@gmail.com
