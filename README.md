@@ -62,7 +62,7 @@ optional arguments:
                         configuration arguments. e.g.: -a Train.loss=mse
 ```
 
-##Dataset
+## Dataset
 
 For **each** image there should be an image for the original image e.g. `TRAIN_image1_source.jpg`, and an image for the ground truth image e.g. `TRAIN_image1_target.jpg`
 
