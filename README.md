@@ -68,7 +68,9 @@ For **each** image there should be an image for the original image e.g. `TRAIN_i
 
 The *pattern* to match source and groundtruth images is the name before the `'_source.*'` or `'_target.*'`
 Besides, all the names should begin with `'TRAIN_'`
+
 ⟶ **In Summury**, for each image there should be the following:
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(`'TRAIN_<uniqueID>_source.<Extention>'`, `'TRAIN_<uniqueID>_target.<Extention>'`)
 
 # Dependency
