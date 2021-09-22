@@ -20,6 +20,7 @@ This is the official repo for the SauvolaNet (ICDAR2021). For details of Sauvola
   pages={538–553},  
   doi={https://doi.org/10.1007/978-3-030-86337-1_36}}
 ```
+Thanks to @mohamadmansourX, we have custom training of SauvolaNet. For more detail, please visit to this [link](https://mohamadmansourx.github.io/SauvolaNet-Training/).
 
 ***
 
