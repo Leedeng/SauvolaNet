@@ -8,8 +8,17 @@
 
 This is the official repo for the SauvolaNet (ICDAR2021). For details of SauvolaNet, please refer to 
 
-```
 
+```
+@INPROCEEDINGS{9506664,  
+  author={Li, Deng and Wu, Yue and Zhou, Yicong},  
+  booktitle={The 16th International Conference on Document Analysis and Recognition (ICDAR)},   
+  title={SauvolaNet: Learning Adaptive Sauvola Network for Degraded Document Binarization},   
+  year={2021},  
+  volume={},  
+  number={},  
+  pages={538–553},  
+  doi={https://doi.org/10.1007/978-3-030-86337-1_36}}
 ```
 
 ***
