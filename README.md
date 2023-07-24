@@ -57,7 +57,7 @@ Other versions might also work but are not tested.
 Download the repo and create the virtual environment by following commands
 
 ```
-conda create --name LineCounter --file spec-env.txt
+conda create --name Sauvola --file spec-env.txt
 conda activate Sauvola
 pip install tensorflow-gpu==1.15.0
 pip install opencv-python
